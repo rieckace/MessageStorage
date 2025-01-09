@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Box</title>
+    <link rel="stylesheet" href="message.css">
+    <script src="messageBox.js"></script>
+</head>
+
+<body>
+    <header>
+    <center><h1>MessageBox</h1>
+    <h3> <select name="mode" id="dark">
+        <option>SelectMode</option>
+        <option value="light">lightmode</option>
+        <option value="dark">darkmode</option>
+    </select>
+    </h3></center>
+</header>
+    <fieldset>
+       <h3>Enter the text..</h3>
+        <textarea id="userInput"></textarea>
+        <button onclick="storeInput()">Submit</button>
+        <h2 id="textbox">Stored Input:</h2>
+        <div id="displayInput"></div>
+    </fieldset>
+    
+</body>
+</html>
